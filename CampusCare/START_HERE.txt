@@ -1,0 +1,12 @@
+CAMPUS CARE - QUICK START (Windows)
+
+1. Install Python (type  py install default  in a terminal if you use the Python Install Manager).
+2. Open the "backend" folder.
+3. Double-click  1_setup.bat   (only the first time). Make your admin username + password when asked.
+4. Double-click  2_run_server.bat   (every time you want the backend running).
+5. Open Chrome:  http://127.0.0.1:8000/admin/
+
+Frontend (Flutter): open a terminal inside the "frontend" folder and run
+   flutter create .
+   flutter pub get
+   flutter run -d chrome
